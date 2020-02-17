@@ -1,0 +1,10 @@
+{
+    "project-name": "Donated Books API",
+    "version": "v1.0.0",
+    "description": "Simple API that sends data to a database. Database is setup to hold book information",
+    "author": "Sion Pixley",
+    "license": "GPLv3; ../LICENSE",
+    "main-file": "./DonatedBooks/manage.py",
+    "dev-dependencies": "requirements.txt"
+}
+

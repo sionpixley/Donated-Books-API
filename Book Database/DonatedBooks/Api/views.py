@@ -146,7 +146,7 @@ def CreateFile(request):
     price = "Total Price"
     file.write(f"{title:<50s} {author:<40s} {unitPrice:<12s} {quantity:<12s} {price:<11s}\n\n")
 
-    books = Book.objects.all().distinct().order_by("Title")
+    books = Book.objects.all().distinct().order_by("AuthorLastName")
     for book in books:
         fullName = f"{book.AuthorFirstName} {book.AuthorLastName}"
         unitPrice = book.Price
