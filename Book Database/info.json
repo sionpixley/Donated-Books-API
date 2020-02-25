@@ -1,6 +1,6 @@
 {
     "project-name": "Donated Books API",
-    "version": "v1.0.0",
+    "version": "v1.0.1",
     "description": "Simple API that sends data to a database. Database is setup to hold book information",
     "author": "Sion Pixley",
     "license": "GPLv3; ../LICENSE",
