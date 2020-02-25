@@ -5,6 +5,11 @@
     "author": "Sion Pixley",
     "license": "GPLv3; ../LICENSE",
     "main-file": "./DonatedBooks/manage.py",
+    "dependencies": {
+        "django": "v3.x",
+        "djangorestframework": "v3.11.x",
+        "python": "v3.7.x"
+    },
     "dev-dependencies": "requirements.txt"
 }
 
